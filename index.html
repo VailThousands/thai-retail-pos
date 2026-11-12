@@ -1,0 +1,11 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>POS | ร้านค้าปลีก</title><meta name="theme-color" content="#173b35"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head><body><header class="top"><div class="brand" id="brand">ร้านค้าปลีก<small>ระบบขายหน้าร้าน</small></div><div id="topTitle">ขายสินค้า</div><button id="installApp" class="plain" hidden>ติดตั้งแอป</button><div><span class="status" id="syncStatus">กำลังเชื่อมฐานข้อมูล</span><button class="plain" onclick="navigate('settings')" id="userLabel">ผู้ขาย ▾</button></div></header><div class="layout"><nav class="nav"><button data-page="sale" onclick="navigate('sale')">▦　ขาย</button><button data-page="orders" onclick="navigate('orders')">▤　ออเดอร์ / บิล</button><button data-page="products" onclick="navigate('products')">▧　สินค้า</button><button data-page="customers" onclick="navigate('customers')">♙　ลูกค้า</button><button data-page="reports" onclick="navigate('reports')">▥　รายงาน</button><button data-page="settings" onclick="navigate('settings')">⚙　ตั้งค่า</button></nav><main id="view"></main></div><div id="modal" class="overlay" onclick="if(event.target===this)closeModal()"><div class="dialog" id="dialog"></div></div><div id="toast" class="toast"></div><script src="js/boot.js"></script></body></html>
+
+
+
+
+
+
+
+
+
+

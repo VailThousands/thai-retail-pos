@@ -1,0 +1,13 @@
+{
+  "id": "/",
+  "name": "POS ร้านค้าปลีก",
+  "short_name": "ร้านค้าปลีก POS",
+  "description": "ระบบขายหน้าร้านและจัดการลูกหนี้",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f5f8",
+  "theme_color": "#173b35",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
+
